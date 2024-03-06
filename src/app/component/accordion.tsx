@@ -1,31 +1,4 @@
-"use client";
-import Tombol_1, { Tombol_2, Tombol_3} from "./component/button";
-import Gallery from "./component/gallery";
-import Form, { Form_2 } from "./component/form";
-
-export default function Home(){
-  return(
-    <>
-    <div className="container mx-auto">
-    <h2>Kuis Kota</h2>
-    <Tombol_1/>
-    <hr></hr>
-    <Tombol_2 isiPesan="Ini Pesanku" namaTombol="Pesan"/>
-    </div>
-    <br></br>
-    <div className="bg-red-300" onClick={() => alert('Parent Element : Div')}>
-      <Tombol_3 isiPesan="Child Element : Tombol-1" namaTombol="Tombol-1"/>
-      <Tombol_3 isiPesan="Child Element : Tombol-2" namaTombol="Tombol-2"/>
-    </div>
-    <br></br>
-    <Gallery/>
-    <br></br>
-    <Form/>
-    <br></br>
-    <Form_2/>
-    </>
-  );
-}
+import React, { useState } from 'react';
 
 function Accordion() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -54,5 +27,23 @@ function Accordion() {
         modern.
       </Panel>
     </>
+  );
+}
+
+function Panel({ title, children, isActive, onshow }) {
+  return (
+    <section className="panel border border-gray-700 p-2">
+      <h3>{title}</h3>
+      {isActive ? (
+        <p>{children}</p>
+      ) : (
+        <button
+          className="bg-blue 400 text xs text white p 1 rounded m-2"
+          onClick={onshow}
+        >
+          Tampilkan
+        </button>
+      )}
+    </section>
   );
 }
