@@ -21,3 +21,13 @@ Jawaban: menampilkan dua panel yang dapat diperluas dan disusutkan, tetapi kode 
 
 Coba jalankan kembali pada browser, amati dan laporkan perbedaannya
 belum ketemu perbedaanya (praktikum 6 langkah 2)
+
+Soal
+Apa tujuan dari penulisan ini key={to.email} pada < Chat key={to.email} contact={to} / > ?
+Jawaban:Tujuan dari penulisan key={to.email} pada <Chat key={to.email} contact={to} /> adalah untuk memberikan kunci unik kepada setiap elemen dalam daftar komponen. Properti key digunakan oleh React untuk mengidentifikasi setiap elemen secara unik saat merender daftar elemen yang dinamis.
+
+Apa fungsi dari props key tersebut?
+Jawaban:Properti key digunakan oleh React untuk membantu dalam proses reconciling (penyesuaian) saat merender daftar elemen yang dinamis, seperti daftar komponen atau iterasi dalam daftar.
+- Dengan menggunakan kunci unik untuk setiap elemen dalam daftar, React dapat memperbarui elemen secara efisien ketika daftar berubah. 
+- Properti key membantu meningkatkan performa aplikasi React dengan mengoptimalkan proses reconciling.
+- Properti key membantu React memelihara state komponen yang dipertahankan, terutama dalam situasi di mana daftar elemen berubah, seperti saat elemen ditambahkan atau dihapus.
