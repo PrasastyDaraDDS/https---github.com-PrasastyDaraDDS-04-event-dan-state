@@ -31,3 +31,14 @@ Jawaban:Properti key digunakan oleh React untuk membantu dalam proses reconcilin
 - Dengan menggunakan kunci unik untuk setiap elemen dalam daftar, React dapat memperbarui elemen secara efisien ketika daftar berubah. 
 - Properti key membantu meningkatkan performa aplikasi React dengan mengoptimalkan proses reconciling.
 - Properti key membantu React memelihara state komponen yang dipertahankan, terutama dalam situasi di mana daftar elemen berubah, seperti saat elemen ditambahkan atau dihapus.
+
+Praktikum 3
+1. integrasi komponen dalam aplikasi Next.js. Saat kita bekerja dengan Next.js, kita sering kali perlu membagi logika dan tampilan menjadi komponen-komponen yang terpisah untuk meningkatkan keterbacaan dan keterorganisasian kode.Profile yang bertanggung jawab untuk menampilkan gambar dan informasi terkait profil. Tugasnya adalah mengintegrasikan komponen ini ke dalam halaman Home().dapat dijalankan aplikasi untuk memastikan bahwa integrasi komponen berfungsi seperti yang diharapkan.
+2. 
+3. 
+4. 
+5. 
+6. dapat menjelaskan bahwa kita telah memperbaiki kode JSX dengan menggunakan interpolasi string untuk menggabungkan nilai variabel ke dalam atribut src. Kita juga dapat menambahkan penjelasan tentang pentingnya gaya penulisan yang benar dalam JSX untuk mencegah kesalahan seperti yang terjadi dalam kode asli.
+7. 
+8. dapat menjelaskan bahwa kita telah memperbaiki komponen MyAvatar untuk mengatur ukuran gambar avatar berdasarkan prop size yang diberikan. Ini memungkinkan penggunaan gambar yang lebih kecil ('s') jika prop size kurang dari 90, dan gambar yang lebih besar ('b') untuk ukuran lainnya. Kita juga dapat menambahkan informasi tentang bagaimana properti dinamis seperti ini memungkinkan fleksibilitas dalam penggunaan komponen.
+9. bahwa kita telah membuat komponen Card yang menerima prop children untuk menampung konten yang berbeda. Kemudian, kita menggunakan komponen Card dalam komponen MyProfileV2 untuk memisahkan informasi tentang foto dan informasi tentang Aklilu Lemma. Ini meningkatkan keterbacaan dan keterorganisasian kode.
